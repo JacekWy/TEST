@@ -27,7 +27,7 @@ switch ($dzien){
 
 $licznik = 'Zapisane';
 setcookie("Licznik",$licznik,time()+3400);
-// echo $_COOKIE['Licznik'];
+echo $_COOKIE['Licznik'];
 
 
 $rand = mt_rand(0,2);
